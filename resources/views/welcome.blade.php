@@ -1,10 +1,5 @@
-<html>
-    <head>
-        @livewireStyles
-    </head>
-    <body>
-        @livewire('hello', ['name' => 'Thiagaooo'])
-
-        @livewireScripts
-    </body>
-</html>
+@extends('layouts.app')
+      
+@section('content')
+        @livewire('datatables')
+@endsection
